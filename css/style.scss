@@ -1,0 +1,448 @@
+body {
+	font-family: "Noto Serif JP", serif;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.title {
+	font-family: "Libre Baskerville", serif;
+	font-size: 60px;
+	padding-top: 145px;
+	padding-bottom: 61px;
+	letter-spacing: 0.05em;
+}
+
+@media screen and (max-width: 767px) {
+	.title {
+		font-size: 30px;
+		padding: 0px;
+	}
+}
+
+.inner {
+	list-style: none;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 80px;
+	box-sizing: content-box;
+
+}
+
+@media screen and (max-width: 767px) {
+	.inner {
+		padding: 40px;
+	}
+}
+
+.tag {
+	background-color: black;
+	color: white;
+	width: 180px;
+	height: 40px;
+	font-size: 14pt;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+	.tag {
+		font-size: 10px;
+		width: 119px;
+		height: 22px;
+		font-size: 10px;
+		padding: 0%;
+	}
+}
+
+.list-item {
+	display: flex;
+	padding-bottom: 41px;
+	align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+	.list-item {
+		padding: 0px;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		padding-bottom: 25px;
+	}
+}
+
+.date {
+	padding-right: 31px;
+	width: 131px;
+}
+
+@media screen and (max-width: 767px) {
+	.date {
+		font-size: 14px;
+		width: 100px;
+	}
+}
+
+.text {
+	padding-left: 31px;
+	padding-right: 31px;
+	flex: 1;
+	line-height: 2.2222222222;
+}
+
+@media screen and (max-width: 767px) {
+	.text {
+		font-size: 14px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		flex: auto;
+		line-height: 2;
+		margin-top: 5px;
+	}
+}
+
+.information {
+	background-color: #f7f7f7;
+	
+}
+
+.chiefsmessage {
+	background-color: black;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap		;
+	gap: 45px;
+	// grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 767px) {}
+
+.message {
+	background-color: #ededed;
+
+	.image {
+		width: 485px;
+	}
+
+	.subcon {
+		flex: 1;
+	}
+}
+
+.title2 {
+	@media screen and (max-width:767px) {
+		font-size: 30px;
+		padding-bottom: 0;
+		margin-bottom: 30px;	
+	}
+}
+
+.chimage {
+	// float: left;
+	// margin-left: 87px;
+	// margin-top: 83px;
+	// margin-right: 45px;
+	// margin-bottom: 137px;
+	// border: 2px solid black;
+
+	@media screen and (max-width: 767px) {
+		display: flex;
+		// width: 295px;
+		// height: 250px;
+	}
+}
+
+.subcon {
+	display: grid;
+	flex-wrap: wrap;
+	// padding-top: 111px;
+	line-height: 2;
+}
+
+@media screen and (max-width: 767px) {
+	.subcon {
+
+		display: grid;
+	}
+}
+
+.contentsenglish {
+	font-family: "Libre Baskerville", serif;
+	font-size: 18px;
+}
+
+.content {
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.subtitle {
+	float: left;
+	display: flex;
+	font-size: 18px;
+	align-items: baseline;
+}
+
+.mimotbigfont {
+	font-size: 28px;
+	font-family: "Libre Baskerville", serif;
+	font-weight: 700;
+}
+
+.title2 {
+	font-family: "Libre Baskerville", serif;
+	font-size: 60px;
+	letter-spacing: 0.05em;
+
+	@media screen and (max-width: 767px) {
+	font-size: 30px;
+	}
+}
+
+.image{
+	@media screen and (max-width:76) {
+		
+	}
+}
+
+.locations{
+	display: flex;
+	flex-wrap: nowrap;
+
+
+	
+	  }
+	
+
+.sub{
+	font-size: 28px;
+	font-family: "Libre Baskerville", serif;
+	font-weight: 700;
+	margin-bottom: 28px;
+
+}
+
+.restype{
+	margin-bottom: 40px;
+	margin-top: 45px;
+	font-size: 28px;
+	@media screen and (max-width:767px) {
+		font-size: 18px;
+
+
+  }
+}
+
+  .address{
+	font-size: 18px;
+	@media screen and (max-width:767px) {
+		font-size: 14px;
+		
+	}
+}
+
+	.addresseng{
+		font-size: 18px;
+		@media screen and (max-width:767px) {
+			font-size: 14px;
+			
+		}
+  }
+
+
+  
+  .imageflex{
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 64px;
+  }
+
+  
+
+
+  .imageflex{
+	@media screen and (max-width:767px) {
+		display: flex;
+		flex-wrap: wrap;
+		
+	}
+  }
+.lheight{
+line-height: 2;
+}
+.googlemap{
+	width: 245px;
+}
+.kyotoimg{
+	width: 610px;
+	@media screen and (max-width:767px) {
+		width: 100%;
+	}
+}
+.tokyoimg{
+	width:610px;
+	@media screen and (max-width:767px) {
+		width: 100%;
+	}
+
+}
+.en-regular {
+	font-family: "Libre Baskerville", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.en-bold {
+	font-family: "Libre Baskerville", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.map{
+	width: 165px;
+	margin-top: 40px;
+	@media screen and (max-width:767px) {
+		width: 122.5px ;
+		
+	}
+}
+.imagegrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 45px; 
+width: 100%;
+align-items: center;
+margin-left: 45px;
+
+@media screen and (max-width:767px) {
+	margin-left: 0px;
+	margin-top: 25px;
+}}
+
+
+
+.services{
+	display:flex;
+	flex-direction: column;
+	gap: 47px;
+	background-color: #ffffff;
+@media screen and (max-width:767px) {
+	font-size: 30px;
+	
+}
+}
+
+.stitle{
+	padding-top: 0px;
+	font-size: 36px;
+	@media screen and (max-width:767px) {
+		margin-top: 25px;
+		font-size: 13px;
+	}
+}
+
+.motpicture{
+	margin-bottom:50px;
+
+}
+.omakase{
+	width: 280px;
+	margin-bottom: 20px;
+	@media screen and (max-width:767px) {
+		width: 167.5px;
+		
+	}
+}
+
+.staffwanted{
+	width:180px;
+	display: flex;
+}
+
+.infoimg{
+	display:flex;
+	@media screen and (max-width:767px) {
+		flex-wrap: wrap;
+		
+	}
+
+}
+
+.mottextall{
+	line-height: 2;
+	@media screen and (max-width:767px) {
+		font-size: 13px;
+		
+	}
+}
+
+
+.reservation{
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.googlemaps{
+	width: 160px;
+}
+
+.mottext{
+	font-size: 36px;
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+}
+.tmark{
+	font-size: 14px;
+}
+
+.loc{
+		background-color: #f7f7f7;
+}
+
+.recruit{
+	display: flex;
+  flex-direction: column;
+}
+
+.rightreqruit{
+	width: 100%;
+	margin:100px;
+	background-image:/img/recbg;
+
+	
+}
+
+.lt{
+	display:flex
+}
+
+.reccon{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.tokyolt{
+	display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: nowrap;
+
+}
+
+.kyotolt{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+	align-items: baseline;
+    
+}
